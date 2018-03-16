@@ -134,8 +134,11 @@ def adding_to_dennis
 	# the following raises Type Error: no implicit conversion of Symbol to Integer
 	# programmer_hash[:dennis_ritchie][:languages] << "Assembly"
 	# attempting secondary method...
-	new_method = programmer_hash[:dennis_ritchie]
-	new_method_tier2 = new_method[:languages]
-	new_method_tier2[1] = "Assembly"
+	#	new_method = programmer_hash[:dennis_ritchie]
+	#	new_method_tier2 = new_method[:languages]
+	#	new_method_tier2[1] = "Assembly"
+	# attempting tertiary method...
+	programmer_hash[:dennis_ritchie][:languages] =
+	["Assembly"]
 
 end
