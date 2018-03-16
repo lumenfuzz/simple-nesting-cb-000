@@ -136,6 +136,7 @@ def adding_to_dennis
 	# attempting secondary method...
 	new_method = programmer_hash[:dennis_ritchie]
 	new_method_tier2 = new_method[:languages]
+	binding.pry
 	new_method_tier2 << "Assembly"
 
 end
