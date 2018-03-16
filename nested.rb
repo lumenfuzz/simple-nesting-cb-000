@@ -139,6 +139,6 @@ def adding_to_dennis
 	#	new_method_tier2[1] = "Assembly"
 	# attempting tertiary method...
 	programmer_hash[:dennis_ritchie][:languages] =
-	["Assembly"]
+	{["Assembly"]}
 
 end
