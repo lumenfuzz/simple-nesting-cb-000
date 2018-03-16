@@ -137,6 +137,6 @@ def adding_to_dennis
 	new_method = programmer_hash[:dennis_ritchie]
 	new_method_tier2 = new_method[:languages]
 	binding.pry
-	new_method_tier2 << "Assembly"
+	new_method_tier2[1] = "Assembly"
 
 end
